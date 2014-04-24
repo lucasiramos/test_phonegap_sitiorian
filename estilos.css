@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:link{ color: #1978B0; text-decoration: none;}
+a:active{ color: #1978B0; text-decoration: none;}
+a:visited{ color: #1978B0; text-decoration: none;}
+a:hover{ color: #1558FF; text-decoration: underline;}
+
+body{
+	font-family: Arial;
+	font-size: 16px;
+	/*background: #CCCCCC;*/
+}
+
+h1{
+	font-weight: bold;
+	font-size: 1.6875em;
+	margin-bottom: 10px;
+	color: #555555;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 1.375em;
+	margin-bottom: 10px;
+	color: #555555;
+}
+
+p{
+	font-size: 0.875em;
+}
+
+/*Alineación y centrado de las cajas*/
+header section, section#contenedorCuerpo, footer #contenedorSeccionesFooter, footer #contenedorLinks{
+	/*border: solid 1px black;*/
+	margin: 0 auto;
+	text-align: left;
+	width: 962px;
+}
+
+/*Fin alineación y centrado de las cajas*/
+
+
+/*Margenes de los contenidos*/
+div#contenedorTop, div#sistemasDeInformacion, div#mapas, div#manuales, div#encuestas, div#articulosEInformes, div#contenidoFooter, #FooterMobile2Col, #FooterMobile1Col{
+	padding-top: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+/*Fin margenes de los contenidos*/
+
+
+div#sistemasDeInformacion, div#mapas, div#manuales, div#encuestas{
+	margin-bottom: 15px;
+}
+
+div#sistemasDeInformacion, div#mapas, div#manuales, div#encuestas, div#articulosEInformes{
+	background: white;
+}
+
+section#contenedorCuerpo{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div#centradorSliderCamera{
+	margin: 0 auto;
+	width: 100%;
+}
+
+div#logoINTA, div#logoRIAN{
+	/*border: solid 2px red;*/
+	display: inline-block;
+}
+
+div#logoINTA{
+	/*background: red;*/
+	text-align: left;
+	width: 54%;
+}
+
+div#logoRIAN{
+	/*background: red;*/
+	text-align: right;
+	width: 45%;
+}
+
+footer #linksOficiales{
+	background: white;
+}
+
+header, footer #seccionesFooter{
+	background: #0C7BB0;
+}
+
+img{
+	/*width: 50%;*/
+}
+
+section#logos{
+	padding-bottom: 10px;
+}
+
+section#sliderCamera{
+	background: white;
+}
+
+section#cuerpo{
+	background: #D4D4D4;
+}
+
+section#miniLogos, #sistemasDeInformacionVMovil, #MapasMobile, #ManualesMobile, #EncuestasMobile, #ArticulosMobile, #FooterMobile2Col, #FooterMobile1Col{
+	display: none;
+}
+
+#contenedorImagenesSistemas div.divImg{
+	display:inline-block; 
+	width:12.9%; 
+	vertical-align: top;
+	font-size: 0.9375em;
+}
+
+#contenedorImagenesSistemas div.divEspacio{
+	display:inline-block; 
+	width:1.6%;
+}
+
+#contenedorImagenesSistemas p, #contenedorImagenesMapas p, #contenedorImagenesManuales p{
+	margin-top:5px;
+}
+
+#sistemasDeInformacionVMovil, #MapasMobile, #ManualesMobile{
+	text-align: center;
+}
+
+#sistemasDeInformacionVMovilTabla{
+	width: 100%;
+	border-collapse:collapse;
+	border: 1px solid #aaa;
+}
+
+#sistemasDeInformacionVMovilTabla, #sistemasDeInformacionVMovilTabla td{
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+
+.rowMobile{
+	background: rgb(242,245,246); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,245,246,1)), color-stop(37%,rgba(227,234,237,1)), color-stop(100%,rgba(200,215,220,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+}
+
+.celdaImagenTablaMobileSistemas{
+	width:50px;
+}
+
+#contenedorImagenesMapas, #contenedorImagenesManuales{
+	padding-left: 3.75%;
+	padding-right: 3.75%;
+}
+
+#contenedorImagenesMapas div.divImgMapas{
+	display:inline-block; 
+	vertical-align: top;
+	font-size: 0.9375em;
+	width:32%;
+}
+
+#contenedorImagenesMapas div.divEspacioMapas{
+	display:inline-block; 
+	width:1.7%;
+}
+
+#contenedorImagenesManuales div.divImgManuales{
+	display:inline-block; 
+	vertical-align: top;
+	font-size: 0.9375em;
+	width:17%;
+}
+
+#contenedorImagenesManuales div.divEspacioManuales, #ManualesMobile div.divEspacioManuales{
+	display:inline-block; 
+	width:10%;
+}
+
+#ManualesMobile div.divImgManuales{
+	display:inline-block; 
+	vertical-align: top;
+	font-size: 0.9375em;
+	width:30%;
+}
+
+#contenedorSeccionEncuestas #DivisorEncuestas{
+	background-image:url("Imagenes/linea_seccion_encuestas.jpg");
+	width: 28px;
+}
+
+#contenedorSeccionEncuestas #PrincipalEncuestas{
+	width: 65%;
+	vertical-align: top;
+}
+
+#contenedorSeccionEncuestas #LinksEncuestas{
+	vertical-align: top;
+}
+
+#TituloUltimaEncuesta{
+	color: #1978B0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#DescripcionUltimaEncuesta{
+	color: #838383;
+}
+
+.SubtituloEncuesta{
+	font-weight: bold;
+}
+
+.UnLinkEncuesta{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 15px;
+}
+
+#imgs1, #imgs2, #imgs3, #imgs4, #imgs5, #imgs6, #imgs7, #imgm1, #imgm2, #imgm3, #imgman1, #imgman2, #imgman3, #imgman4, #imgenc{
+	max-width: 100%;
+}
+
+.divArticulos, .divContenidoFooter{
+	display:inline-block;
+	vertical-align: top;
+	width: 32.2%;
+}
+
+.divArticulos p{
+	margin-bottom: 14px;
+}
+
+.divArticulos p:nth-last-child(1){
+	margin-bottom: 0px;
+}
+
+#divArt2, #divFoot2{
+	margin-left: 10px;
+}
+
+#divArt3, #divFoot3{
+	margin-left: 10px;
+}
+
+.LineaPunteada{
+	border-top: dotted 1px;
+	border-bottom: 0px;
+	border-left:  0px;
+	border-right:  0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+.subtituloFooter{
+	color: #9CD2F6;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.divContenidoFooter a:link{ color: white; text-decoration: none; }
+.divContenidoFooter a:active{ color: white; text-decoration: none; }
+.divContenidoFooter a:visited{ color: white; text-decoration: none; }
+.divContenidoFooter a:hover{ color: white; text-decoration: underline; }
+
+#FooterMobile2Col div.Cols{
+	display:inline-block; 
+	vertical-align: top;
+	font-size: 0.9375em;
+	width:40%;
+}
+
+#FooterMobile2Col div.divEspacioFooter{
+	display:inline-block; 
+	width:7%;
+}
+
+
+#FooterMobile2Col a:link{ color: white; text-decoration: none; }
+#FooterMobile2Col a:active{ color: white; text-decoration: none; }
+#FooterMobile2Col a:visited{ color: white; text-decoration: none; }
+#FooterMobile2Col a:hover{ color: white; text-decoration: underline; }
+
+#FooterMobile1Col a:link{ color: white; text-decoration: none; }
+#FooterMobile1Col a:active{ color: white; text-decoration: none; }
+#FooterMobile1Col a:visited{ color: white; text-decoration: none; }
+#FooterMobile1Col a:hover{ color: white; text-decoration: underline; }
+
+/*Camera Slideshow*/
+.tituloSlide { 
+	color: #1277AB; 
+	font-size: 1.25em; 
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+a.lnkCamera:link{ color: #1277AB; text-decoration: none;}
+a.lnkCamera:active{ color: #1277AB; text-decoration: none;}
+a.lnkCamera:visited{ color: #1277AB; text-decoration: none;}
+a.lnkCamera:hover{ color: #97BFE3; text-decoration: underline;}
+
+#contenedorLinks div{
+	text-align: center;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 1020px) {
+	header section, section#contenedorCuerpo, footer #contenedorSeccionesFooter, footer #contenedorLinks{
+		width: 95%;
+	}
+}
+
+@media (max-width: 900px) {
+	div#logoINTA img{
+		width: 276px;
+		height: 80px;
+	}
+
+	div#logoRIAN img{
+		width: 173px;
+		height: 80px;
+	}
+}
+
+@media (max-width: 700px) {
+	div#logoINTA img{
+		width: 207px;
+		height: 60px;
+	}
+
+	div#logoRIAN img{
+		width: 129px;
+		height: 60px;
+	}
+}
+
+@media (max-width: 690px){
+	#sistemasDeInformacionVMovil, #ArticulosMobile, #FooterMobile2Col{
+		display: block;
+	}
+
+	#contenedorImagenesSistemas, #ContenedorArticulos, #contenidoFooter{
+		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	section#miniLogos, #MapasMobile, #ManualesMobile, #EncuestasMobile{
+		display: block;
+	}
+
+	section#logos, #contenedorImagenesMapas, #contenedorImagenesManuales, #contenedorSeccionEncuestas{
+		display: none;
+	}
+
+	h1{
+		font-size: 1.250em;
+	}
+
+	h2{
+		font-size: 1.125em;
+	}
+}
+
+@media (max-width: 400px) {
+	#FooterMobile1Col{
+		display: block;
+	}
+
+	#FooterMobile2Col{
+		display: none;
+	}
+}
+
+

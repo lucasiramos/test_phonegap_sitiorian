@@ -1,0 +1,340 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>INTA RIAN - Red de Información Agropecuaria Nacional</title>
+	<meta name="description" content="La Red de Información Agropecuaria Nacional del INTA releva, procesa y dispone de información agropecuaria para toda la Argentina, mediante la realización de relevamientos, encuestas, recorridas a campo y elaboración de artículos e informes." />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+
+	<link rel="stylesheet" href="estilos.css">
+	<link rel='stylesheet' id='camera-css' href='Styles/camera.css' type='text/css' media='all'>
+	<link rel="shortcut icon" href="http://www.inta.gov.ar/favicon.ico" />
+
+	<script type='text/javascript' src='Scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='Scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='Scripts/jquery.easing.1.3.js'></script>
+    <script type='text/javascript' src='Scripts/camera.min.js'></script>
+    <script>
+        jQuery(function () {
+            jQuery('#camera_wrap_1').camera({
+                thumbnails: true,
+                alignment: 'bottomRight',
+                time: 10000
+            });
+        });
+	</script>
+	<script>
+        function fullScreen(theURL) {
+            window.open(theURL, '', 'fullscreen=yes, scrollbars=yes');
+        }
+    </script>
+</head>
+<body>
+	<header>
+		<section id="logos">
+			<div id="logoINTA">
+				<a href="http://www.inta.gob.ar"><img src="Imagenes/Logo_INTA.jpg"/></a>
+			</div>
+			<div id="logoRIAN">
+				<a href="http://rian.inta.gov.ar"><img src="Imagenes/LogoRIAN.jpg"/></a>
+			</div>
+		</section>
+		<section id="miniLogos">
+			<img src="Imagenes/miniLogos.jpg"/>
+		</section>
+		<section id="sliderCamera">
+			<div id="contenedorTop">
+				<h1>Red de Información Agropecuaria Nacional</h1>
+				<div id="centradorSliderCamera">
+					<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+					    <div data-thumb="images/Camera/slides/thumbs/1-Semanal.jpg" data-src="images/Camera/slides/1-Semanal.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Seguimiento Semanal de los Sistemas Productivos</p>
+					            <p>Semanalmente la RIAN evalúa la condición de los principales componentes de los sistemas productivos del país. Los resultados del monitoreo se visualizan en mapas y tablas con escalas cromáticas de condición.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/situacionagropecuaria">Acceder a la información de Sistemas Productivos</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/2-Agrometeorologia.jpg" data-src="images/Camera/slides/2-Agrometeorologia.jpg" data-alignment="bottomRight">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Información Agrometeorológica</p>
+					            <p>Se presenta información de todo el país en mapas e informes en planillas de precipitaciones, temperaturas máximas, mínimas y heliofanía.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/redagrometeorologica">Ver información Agrometeorológica</a></p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/agua/informes.aspx">Descargar información en Excel o Pdf</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/3-Ganaderia.jpg" data-src="images/Camera/slides/3-Ganaderia.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Información Ganadera</p>
+					            <p>Se presentan resultados de encuestas a productores e informes de existencias ganaderas.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/ganaderia">Ver información de Ganadería</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/4-Dispositivos_moviles.jpg" data-src="images/Camera/slides/4-Dispositivos_moviles.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Dispositivos móviles</p>
+					            <p>Consultá la información de la red por medio de tu celular o Tablet.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://sistemasanguil.inta.gob.ar/rianmobile">Información agropecuaria por departamento</a></p>
+					            <p><a class="lnkCamera" href="http://riancarga.inta.gob.ar/mobile">Información agroclimática</a></p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/dispositivosmoviles/descargas.aspx">Descarga de aplicaciones</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/5-Monitoreos_Mensuales.jpg" data-src="images/Camera/slides/5-Monitoreos_Mensuales.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Monitoreos Mensuales</p>
+					            <p>La red realiza seguimientos mensuales de estado de los cultivos, estado hídrico e índice verde.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/consultaagronomica">Ver resultados de los seguimientos mensuales</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/6-Atlas.jpg" data-src="images/Camera/slides/6-Atlas.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Atlas de Organismos Perjudiciales</p>
+					            <p>Los atlas de plagas, malezas y enfermedades presentan información georeferenciada de ocurrencia junto con información de sus características más importantes. Todos los datos son respaldados por referencias bibliográficas.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/atlasplagas">Ingresar al Atlas de Plagas</a></p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/atlasmalezas/atlasmalezasportal">Ingresar al Atlas de Malezas</a></p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/atlas">Ingresar al Atlas de Enfermedades</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/7-Publicaciones.jpg" data-src="images/Camera/slides/7-Publicaciones.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Publicaciones de la red</p>
+					            <p>La red genera informes, reportes, artículos y boletines sobre sus temáticas de estudio.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="#ArticulosEInformes">Ver artículos disponibles</a></p>
+					        </div>
+					    </div>
+					    <div data-thumb="images/Camera/slides/thumbs/8-MaterialEducativo.jpg" data-src="images/Camera/slides/8-MaterialEducativo.jpg">
+					        <div class="camera_caption fadeFromBottom">
+					            <p class="tituloSlide">Material educativo</p>
+					            <p>La RIAN ha generado material regional para Trivias e Infografías, los cuales pueden ser útiles para alumnos y docentes de diferentes niveles educativos. Todo el material se puede descargar de forma gratuita.</p>
+					            <p>&nbsp;</p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/materialeducativo/trivias.aspx">Jugar y descargar las Trivias RIAN</a></p>
+					            <p><a class="lnkCamera" href="http://rian.inta.gov.ar/materialeducativo/infografias.aspx">Descargar Infografías</a></p>
+					        </div>
+					    </div>
+					</div>
+					<!-- #camera_wrap_1 -->	
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</section>
+	</header>
+	<section id="cuerpo">
+		<section id="contenedorCuerpo">
+			<div id="sistemasDeInformacion">
+				<h2>Sistemas de información</h2>
+				<div id="contenedorImagenesSistemas">
+					<div class="divImg"><a href="http://rian.inta.gov.ar/situacionagropecuaria"><img border="0" id="imgs1" src="Imagenes/s1_semanal.jpg"></img></a><p><a href="http://rian.inta.gov.ar/situacionagropecuaria">Seguimiento Semanal de los Sistemas Productivos</a></p></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/consultaagronomica"><img id="imgs2" border="0" src="Imagenes/s2_mensual.jpg"></img></a><p><a href="http://rian.inta.gov.ar/consultaagronomica">Seguimiento mensual de los cultivos y Estado Hídrico</a></p></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/redagrometeorologica"><img border="0" id="imgs3" src="Imagenes/s3_meteorologia.jpg"></img></a><p><a href="http://rian.inta.gov.ar/redagrometeorologica">Red Agro<br/>meteorológica</a></p></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/agua/informes.aspx"><img id="imgs4" border="0" src="Imagenes/s4_informesMeteorologicos.jpg"></img></a><a href="http://rian.inta.gov.ar/agua/informes.aspx"><p>Informes Agro<br/>meteorológicos</p></a></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/atlas"><img id="imgs5" border="0" src="Imagenes/s5_AtlasFito.jpg"></img></a><p><a href="http://rian.inta.gov.ar/atlas">Atlas Fitopatológico Argentino</a></p></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/atlasmalezas/atlasmalezasportal"><img id="imgs6" border="0" src="Imagenes/s6_AtlasMalezas.jpg"></img></a><p><a href="http://rian.inta.gov.ar/atlasmalezas/atlasmalezasportal">Atlas Argentino de Malezas</a></p></div><div class="divEspacio"></div><div class="divImg"><a href="http://rian.inta.gov.ar/atlasplagas"><img id="imgs7" border="0" src="Imagenes/s7_AtlasMalezas.jpg"></img></a><p><a href="http://rian.inta.gov.ar/atlasplagas">Atlas Argentino de Plagas</a></p></div>
+				</div>
+				<div id="sistemasDeInformacionVMovil">
+					<div class="divSistemaMovil">
+						<table id="sistemasDeInformacionVMovilTabla" cellspacing="0" cellpadding="0">
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gob.ar/situacionagropecuaria'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s1_semanal.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Seguimiento Semanal de los Sistemas Productivos</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gob.ar/consultaagronomica'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s2_mensual.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Seguimiento mensual de los cultivos y Estado Hídrico</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gob.ar/redagrometeorologica'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s3_meteorologia.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Red Agrometeorológica</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gov.ar/agua/informes.aspx'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s4_informesMeteorologicos.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Informes Agrometeorológicos</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gov.ar/atlas'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s5_AtlasFito.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Atlas Fitopatológico Argentino</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gov.ar/atlasmalezas/atlasmalezasportal'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s6_AtlasMalezas.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Atlas Argentino de Malezas</p></td>
+							</tr>
+							<tr class="rowMobile" onClick="javascript:location.href='http://rian.inta.gov.ar/atlasplagas'">
+								<td class="celdaImagenTablaMobileSistemas"><img border="0" src="Imagenes/movil/s7_AtlasPlagas.jpg" align="absMiddle" style="margin:8px"></img></td>
+								<td><p align="left">Atlas Argentino de Plagas</p></td>
+							</tr>
+						</table>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+			</div>
+			<div id="mapas">
+				<h2>Mapas</h2>
+				<div id="contenedorImagenesMapas">
+					<div class="divImgMapas"><a href="http://rian.inta.gov.ar/agua/mapasmensuales/Octubre13.jpg" target="blank"><img id="imgm1" border="0" src="Imagenes/mapa_1.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agua/mapasmensuales/Octubre13.jpg" target="blank">Precipitaciones mensuales</a></p></div><div class="divEspacioMapas"></div><div class="divImgMapas"><a href="http://rian.inta.gov.ar/Agua/mapasmensuales/junio_2012_web.jpg" target="blank"><img border="0" id="imgm2" src="Imagenes/mapa_2.jpg"></img></a><p><a href="http://rian.inta.gov.ar/Agua/mapasmensuales/junio_2012_web.jpg" target="blank">Índice verde</a></p></div><div class="divEspacioMapas"></div><div class="divImgMapas"><a href="http://rian.inta.gov.ar/agua/mapasmensuales/vr_177_2013_evi_pr.jpg" target="blank"><img id="imgm3" src="Imagenes/mapa_3.jpg" border="0"></img></a><p><a href="http://rian.inta.gov.ar/agua/mapasmensuales/vr_177_2013_evi_pr.jpg" target="blank">Variación relativa del Índice EVI</a></p></div>
+				</div>
+				<div id="MapasMobile" style="text-align:center">
+					<div class="divImgMapas"><a href="http://rian.inta.gov.ar/agua/mapasmensuales/Octubre13.jpg" target="blank"><img id="imgm1" border="0" src="Imagenes/mapa_1.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agua/mapasmensuales/Octubre13.jpg" target="blank">Precipitaciones mensuales</a></p></div>
+					<p>&nbsp;</p>
+					<div class="divImgMapas"><a href="http://rian.inta.gov.ar/Agua/mapasmensuales/junio_2012_web.jpg" target="blank"><img border="0" id="imgm2" src="Imagenes/mapa_2.jpg"></img></a><p><a href="http://rian.inta.gov.ar/Agua/mapasmensuales/junio_2012_web.jpg" target="blank">Índice verde</a></p></div>
+					<p>&nbsp;</p>
+					<div class="divImgMapas"><a href="http://rian.inta.gov.ar/agua/mapasmensuales/vr_177_2013_evi_pr.jpg" target="blank"><img id="imgm3" src="Imagenes/mapa_3.jpg" border="0"></img></a><p><a href="http://rian.inta.gov.ar/agua/mapasmensuales/vr_177_2013_evi_pr.jpg" target="blank">Variación relativa del Índice EVI</a></p></div>
+				</div>
+				<p>&nbsp;</p>
+				<p><a href="http://rian.inta.gov.ar/agua/mapas.aspx">Ver todos los mapas disponibles</a></p>
+			</div>
+			<div id="manuales">
+				<h2>Manuales</h2>
+				<div id="contenedorImagenesManuales">
+					<div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Trigo.pdf" target="blank"><img border="0" id="imgman1" src="Imagenes/manual_trigo.jpg"></a></img><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Trigo.pdf" target="blank">Manual de Trigo</a></p></div><div class="divEspacioManuales"></div><div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Gruesa.pdf" target="blank"><img id="imgman2" src="Imagenes/manual_gruesa.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Gruesa.pdf" target="blank">Manual de Gruesa</a></p></div><div class="divEspacioManuales"></div><div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Algodon.pdf" target="blank"><img id="imgman3" src="Imagenes/manual_algodon.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Algodon.pdf" target="blank">Manual de Algodón</a></p></div><div class="divEspacioManuales"></div><div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_yerba.pdf" target="blank"><img id="imgman4" src="Imagenes/manual_yerbamate.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_yerba.pdf" target="blank">Manual de Yerba Mate</a></p></div>
+				</div>
+				<div id="ManualesMobile">
+					<div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Trigo.pdf" target="blank"><img border="0" id="imgman1" src="Imagenes/manual_trigo.jpg"></a></img><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Trigo.pdf" target="blank">Manual de Trigo</a></p></div><div class="divEspacioManuales"></div><div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Gruesa.pdf" target="blank"><img id="imgman2" src="Imagenes/manual_gruesa.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Gruesa.pdf" target="blank">Manual de Gruesa</a></p></div>
+					<p>&nbsp;</p>
+					<div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_Algodon.pdf" target="blank"><img id="imgman3" src="Imagenes/manual_algodon.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_Algodon.pdf" target="blank">Manual de Algodón</a></p></div><div class="divEspacioManuales"></div><div class="divImgManuales"><a href="http://rian.inta.gov.ar/agronomia/Manual_yerba.pdf" target="blank"><img id="imgman4" src="Imagenes/manual_yerbamate.jpg"></img></a><p><a href="http://rian.inta.gov.ar/agronomia/Manual_yerba.pdf" target="blank">Manual de Yerba Mate</a></p></div>			
+				</div>
+			</div>
+			<div id="encuestas">
+				<h2>Encuestas</h2>
+				<div id="contenedorSeccionEncuestas">
+					<table width="100%">
+						<tr id="TablaEncuestas">
+							<td id="PrincipalEncuestas">
+								<a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');"><img id="imgenc" border="0" src="Imagenes/encuesta_santiago.jpg" align="left" style="margin-right:12px"></a>
+								<p id="TituloUltimaEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');">Encuesta ganadera Bovinos para carne Santiago del Estero</a></p><p id="DescripcionUltimaEncuesta">El objetivo primordial de dicha encuesta es indagar sobre aquellas variables que determinan la Tecnología predominante en sistemas productivos mixtos de nuestro país, y específicamente en este caso en los sistemas Ganaderos. El componente tecnológico involucra a todas las actividades ganaderas realizadas en distintas provincias durante el período de la encuesta. En esta oportunidad se presentan los resultados de la encuesta ganadera realizada en la provincia de Santiago del Estero.</p>
+							</td>
+							<td id="DivisorEncuestas">
+								&nbsp;
+							</td>
+							<td id="LinksEncuestas">
+								<p class="SubtituloEncuesta">Encuesta Ganadera 2009-2011</p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2010_chaco.aspx');">Resultados provincia de Chaco</a></p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2010_formosa.aspx');">Resultados provincia de Formosa</a></p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');">Resultados provincia de Santiago del Estero</a></p>
+								<p>&nbsp;</p>
+								<p class="SubtituloEncuesta">Encuesta Tecnológica 2007</p>
+								<p class="UnLinkEncuesta"><a href="http://rian.inta.gov.ar/WebEtriap/Form1.wgx">Ver resultados por provincias y estratos de los capítulos</a></p>
+								<p class="UnLinkEncuesta"><a href="http://rian.inta.gov.ar/etriap2007/default.aspx">Exportar datos de la Encuesta Tecnológica</a></p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<p><a href="http://rian.inta.gov.ar/encuestas">Ver más información de Encuestas</a></p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="EncuestasMobile">
+					<p id="TituloUltimaEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');">Encuesta ganadera Bovinos para carne Santiago del Estero</a></p>
+					<p style="text-align:center;"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');"><img id="imgenc" border="0" src="Imagenes/encuesta_santiago.jpg"></a></p>					
+					<p id="DescripcionUltimaEncuesta">El objetivo primordial de dicha encuesta es indagar sobre aquellas variables que determinan la Tecnología predominante en sistemas productivos mixtos de nuestro país, y específicamente en este caso en los sistemas Ganaderos. El componente tecnológico involucra a todas las actividades ganaderas realizadas en distintas provincias durante el período de la encuesta. En esta oportunidad se presentan los resultados de la encuesta ganadera realizada en la provincia de Santiago del Estero.</p>
+					<p>&nbsp;</p>
+					<hr style="color:gray;">
+					<p>&nbsp;</p>
+					<td id="LinksEncuestas">
+								<p class="SubtituloEncuesta">Encuesta Ganadera 2009-2011</p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2010_chaco.aspx');">Resultados provincia de Chaco</a></p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2010_formosa.aspx');">Resultados provincia de Formosa</a></p>
+								<p class="UnLinkEncuesta"><a href="javascript:void(0);" onclick="fullScreen('http://rian.inta.gov.ar/encuestas/etg2011_sgo.aspx');">Resultados provincia de Santiago del Estero</a></p>
+								<p>&nbsp;</p>
+								<p class="SubtituloEncuesta">Encuesta Tecnológica 2007</p>
+								<p class="UnLinkEncuesta"><a href="http://rian.inta.gov.ar/WebEtriap/Form1.wgx">Ver resultados por provincias y estratos de los capítulos</a></p>
+								<p class="UnLinkEncuesta"><a href="http://rian.inta.gov.ar/etriap2007/default.aspx">Exportar datos de la Encuesta Tecnológica</a></p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<p><a href="http://rian.inta.gov.ar/encuestas">Ver más información de Encuestas</a></p>
+							</td>
+				</div>
+			</div>
+			<div id="articulosEInformes">
+				<h2>Artículos e informes</h2>
+				<div id="ContenedorArticulos">
+				<div class="divArticulos" id="divArt1"><p><a target="blank" href="http://rian.inta.gov.ar/agronomia/libropulgones">Clave para identificar las formas ápteras que atacan a los cereales</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/azucar.-analisis-de-la-situacion-internacional-nacional-y-exportaciones/at_multi_download/file/10-Azucar-2010%20RIAN.pdf">Azúcar. Análisis de la situación internacional, nacional y exportaciones.</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/olivo.-aceite-de-oliva.-analisis-de-la-situacion-internacional-y-exportaciones/at_multi_download/file/Aceite%20Oliva-2010.pdf">Olivo. Aceite de oliva. Analisis de la situación internacional y exportaciones.</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/olivo.-aceitunas-conserva-analisis-de-la-situacion-internacional-y-exportaciones/at_multi_download/file/Aceitunas%202010.pdf">Olivo. Aceitunas conserva: análisis de la situación internacional y exportaciones</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/trigo.-analsis-de-la-situacion-mundial.-99-00-a-09-10/at_multi_download/file/04-Trigo-2010%20RIAN.pdf">Trigo. Análisis de la situación mundial. 99/00 a 09/10.</a></p></div><div class="divArticulos" id="divArt2"><p><a target="blank" href="http://inta.gob.ar/documentos/soja-y-derivados/at_multi_download/file/01-Soja-2010%20RIAN.pdf">Análisis de la situación mundial de soja y sus derivados en las campañas 99/00 a 09/10</a></p><p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/Pais-2011.pdf">Escenario Internacional y análisis de la actividad ganadera bovina Nacional por estratos de productores y composición del stock. Años 2008 a 2011</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/ganaderia-bovina-pampeana-2010/at_multi_download/file/PAMPEANA-2010.pdf">Ganadería Bovina Pampeana 2010</a></p><p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/stock2011.ppt">Stock 2011 del ganado bovino</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/stock-2010-del-ganado-bovino/at_multi_download/file/Stock%20del%20ganado%20bovino%20-%20Informe%202010.pdf">Stock 2010 del ganado bovino</a></p></div><div class="divArticulos" id="divArt3"><p><a target="blank" href="http://inta.gob.ar/documentos/stock-2009-del-ganado-bovino-de-carne/at_multi_download/file/Inf.%20Tec.%20N%C2%B0%20174_%20Mapas%20exist.%202009%20INTA%20SENASA.pdf">Stock 2009 del ganado bovino</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/patologias-emergentes-de-la-intensificacion-bovina-en-la-region-semiarida-subhumeda-del-centro-de-la-argentina/at_multi_download/file/Inf.Tec.%20N%C2%B0%20179%20Enfermedades%20Emergentes%20RIAN%20Ganadero.pdf">Patologías emergentes de la intensificación bovina en la Región Semiárida - Subhúmeda del centro de la Argentina</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/principales-productos-agricolas-98-99-a-09-10/at_multi_download/file/00-Mundial-2010%20RIAN.pdf">Análisis de la situación mundial de los principales productos agrícolas en las campañas 98/99 a 09/10</a></p></div>
+				</div>
+				<div id="ArticulosMobile">
+					<p><a target="blank" href="http://rian.inta.gov.ar/agronomia/libropulgones">Clave para identificar las formas ápteras que atacan a los cereales</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/azucar.-analisis-de-la-situacion-internacional-nacional-y-exportaciones/at_multi_download/file/10-Azucar-2010%20RIAN.pdf">Azúcar. Análisis de la situación internacional, nacional y exportaciones.</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/olivo.-aceite-de-oliva.-analisis-de-la-situacion-internacional-y-exportaciones/at_multi_download/file/Aceite%20Oliva-2010.pdf">Olivo. Aceite de oliva. Analisis de la situación internacional y exportaciones.</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/olivo.-aceitunas-conserva-analisis-de-la-situacion-internacional-y-exportaciones/at_multi_download/file/Aceitunas%202010.pdf">Olivo. Aceitunas conserva: análisis de la situación internacional y exportaciones</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/trigo.-analsis-de-la-situacion-mundial.-99-00-a-09-10/at_multi_download/file/04-Trigo-2010%20RIAN.pdf">Trigo. Análisis de la situación mundial. 99/00 a 09/10.</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/soja-y-derivados/at_multi_download/file/01-Soja-2010%20RIAN.pdf">Análisis de la situación mundial de soja y sus derivados en las campañas 99/00 a 09/10</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/Pais-2011.pdf">Escenario Internacional y análisis de la actividad ganadera bovina Nacional por estratos de productores y composición del stock. Años 2008 a 2011</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/ganaderia-bovina-pampeana-2010/at_multi_download/file/PAMPEANA-2010.pdf">Ganadería Bovina Pampeana 2010</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/stock2011.ppt">Stock 2011 del ganado bovino</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/stock-2010-del-ganado-bovino/at_multi_download/file/Stock%20del%20ganado%20bovino%20-%20Informe%202010.pdf">Stock 2010 del ganado bovino</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/stock-2009-del-ganado-bovino-de-carne/at_multi_download/file/Inf.%20Tec.%20N%C2%B0%20174_%20Mapas%20exist.%202009%20INTA%20SENASA.pdf">Stock 2009 del ganado bovino</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/patologias-emergentes-de-la-intensificacion-bovina-en-la-region-semiarida-subhumeda-del-centro-de-la-argentina/at_multi_download/file/Inf.Tec.%20N%C2%B0%20179%20Enfermedades%20Emergentes%20RIAN%20Ganadero.pdf">Patologías emergentes de la intensificación bovina en la Región Semiárida - Subhúmeda del centro de la Argentina</a></p>
+					<hr class="LineaPunteada"></hr>
+					<p><a target="blank" href="http://inta.gob.ar/documentos/principales-productos-agricolas-98-99-a-09-10/at_multi_download/file/00-Mundial-2010%20RIAN.pdf">Análisis de la situación mundial de los principales productos agrícolas en las campañas 98/99 a 09/10</a></p>
+				</div>
+			</div>
+
+		</section>
+	</section>
+	<footer>
+		<section id="seccionesFooter">
+			<section id="contenedorSeccionesFooter">
+					<div id="contenidoFooter">
+						<div class="divContenidoFooter" id="divFoot1"><p class="subtituloFooter">Dispositivos móviles</p><p><a target="blank" href="http://rian.inta.gov.ar/dispositivosmoviles/descargas.aspx">Descargas de aplicaciones</a></p><p>&nbsp;</p><p class="subtituloFooter">Ganadería</p><p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/">Información ganadera de la Red</a></p></div><div class="divContenidoFooter" id="divFoot2"><p class="subtituloFooter">Material educativo</p><p><a target="blank" href="http://rian.inta.gov.ar/materialeducativo/trivias.aspx">Trivias</a></p><p><a target="blank" href="http://rian.inta.gov.ar/materialeducativo/infografias.aspx">Infografías</a></p><p>&nbsp;</p><p class="subtituloFooter">Boletines</p><p><a target="blank" href="http://inta.gob.ar/documentos/rian-centro-regional-buenos-aires-norte">Buenos Aires Norte</a></p><p><a target="blank" href="http://inta.gob.ar/documentos/rian-chaco-formosa">Chaco-Formosa</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/mjuarez/info/riap.htm">Córdoba</a></p></div><div class="divContenidoFooter" id="divFoot3"><p><a target="blank" href="http://anterior.inta.gov.ar/parana/info/documentos/rian_riap/informes.htm">Entre Ríos</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/anguil/rian/boletinesrian.htm">La Pampa-San Luis</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/rafaela/info/documentos/riap_santafe/">Santa Fe</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/balcarce/riap/News/boletin.htm">EEA Balcarce</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/barrow/info/documentos/RIAP/riap_indice.htm">CEI Barrow</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/ascasubi/investiga/rian.htm">EEA Hilario Ascasubi</a></p><p><a target="blank" href="http://anterior.inta.gov.ar/manfredi/info/boletines/inforural/inforural2.htm">EEA Manfredi</a></p><p><a target="blank" href="http://rian.inta.gov.ar/boletines">Boletín Noticias de la Red</a></p></div>
+					</div>
+					<div id="FooterMobile2Col">
+						<div id="Col1" class="Cols">
+							<p class="subtituloFooter">Dispositivos móviles</p>
+							<p><a target="blank" href="http://rian.inta.gov.ar/dispositivosmoviles/descargas.aspx">Descargas de aplicaciones</a></p>
+							<p>&nbsp;</p>
+							<p class="subtituloFooter">Ganadería</p>
+							<p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/">Información ganadera de la Red</a></p>
+							<p>&nbsp;</p>
+							<p class="subtituloFooter">Boletines</p>
+							<p><a target="blank" href="http://inta.gob.ar/documentos/rian-centro-regional-buenos-aires-norte">Buenos Aires Norte</a></p>
+							<p><a target="blank" href="http://inta.gob.ar/documentos/rian-chaco-formosa">Chaco-Formosa</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/mjuarez/info/riap.htm">Córdoba</a></p>
+						</div>
+						<div class="divEspacioFooter"></div>
+						<div id="Col2" class="Cols">
+							<p><a target="blank" href="http://anterior.inta.gov.ar/parana/info/documentos/rian_riap/informes.htm">Entre Ríos</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/anguil/rian/boletinesrian.htm">La Pampa-San Luis</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/rafaela/info/documentos/riap_santafe/">Santa Fe</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/balcarce/riap/News/boletin.htm">EEA Balcarce</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/barrow/info/documentos/RIAP/riap_indice.htm">CEI Barrow</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/ascasubi/investiga/rian.htm">EEA Hilario Ascasubi</a></p>
+							<p><a target="blank" href="http://anterior.inta.gov.ar/manfredi/info/boletines/inforural/inforural2.htm">EEA Manfredi</a></p>
+							<p><a target="blank" href="http://rian.inta.gov.ar/boletines">Boletín Noticias de la Red</a></p>
+						</div>						
+					</div>
+					<div id="FooterMobile1Col">
+						<p class="subtituloFooter">Dispositivos móviles</p>
+						<p><a target="blank" href="http://rian.inta.gov.ar/dispositivosmoviles/descargas.aspx">Descargas de aplicaciones</a></p>
+						<p>&nbsp;</p>
+						<p class="subtituloFooter">Ganadería</p>
+						<p><a target="blank" href="http://rian.inta.gov.ar/ganaderia/">Información ganadera de la Red</a></p>
+						<p>&nbsp;</p>
+						<p class="subtituloFooter">Boletines</p>
+						<p><a target="blank" href="http://inta.gob.ar/documentos/rian-centro-regional-buenos-aires-norte">Buenos Aires Norte</a></p>
+						<p><a target="blank" href="http://inta.gob.ar/documentos/rian-chaco-formosa">Chaco-Formosa</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/mjuarez/info/riap.htm">Córdoba</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/parana/info/documentos/rian_riap/informes.htm">Entre Ríos</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/anguil/rian/boletinesrian.htm">La Pampa-San Luis</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/rafaela/info/documentos/riap_santafe/">Santa Fe</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/balcarce/riap/News/boletin.htm">EEA Balcarce</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/barrow/info/documentos/RIAP/riap_indice.htm">CEI Barrow</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/ascasubi/investiga/rian.htm">EEA Hilario Ascasubi</a></p>
+						<p><a target="blank" href="http://anterior.inta.gov.ar/manfredi/info/boletines/inforural/inforural2.htm">EEA Manfredi</a></p>
+						<p><a target="blank" href="http://rian.inta.gov.ar/boletines">Boletín Noticias de la Red</a></p>
+					</div>
+			</section>
+		</section>
+		<section id="linksOficiales">
+			<section id="contenedorLinks"><div id="imagenes"><a href="http://www.minagri.gob.ar/"><img src="Imagenes\LogoMinisterio.jpg"></a><img src="Imagenes\LogoArgcvs.jpg"><a href="http://www.argentina.gob.ar/"><img src="Imagenes\LogoArg.jpg"></a></div></section>
+		</section>		
+	</footer>
+</body>
+</html>
